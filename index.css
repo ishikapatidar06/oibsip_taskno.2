@@ -1,0 +1,88 @@
+body {
+  background-color: rgba(248, 243, 243, 0);
+  display: flex;
+  justify-content: center;
+}
+#container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 67%;
+  height: 1200px;
+  background-color: rgb(209, 196, 196);
+  border-radius: 100px;
+  border: 2px solid black;
+  padding: 20px;
+}
+#header {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  border-radius: 150px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 5px 5px 10px 2px rgb(85, 70, 70);
+  height: 25%;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+#profilePic {
+  box-shadow: 0px 0px 10px 4px rgb(86, 83, 83);
+  height: 100%;
+  width: 30%;
+  background-image: url("https://3.bp.blogspot.com/-yiztoNU8sxw/VUeJfu7pz7I/AAAAAAAAN-U/QmaedGA3ue0/s1600/rani-lakshmi-bai-punyatithi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+#name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  width: 65%;
+  height: 100%;
+}
+#name h2 {
+  color: rgb(190, 189, 201);
+  font-size: 35px;
+  font-weight: 900;
+}
+#name #h22 {
+  margin-bottom: -60px;
+}
+
+#name div h1 {
+  font-size: 30px;
+  color: rgb(213, 165, 182);
+}
+#name div h3 {
+  color: rgb(213, 165, 182);
+}
+#name h3 {
+  margin-top: -10px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main h1 {
+  margin-top: 60px;
+  text-decoration: underline;
+}
+#main article p span {
+  margin-left: 5px;
+  font-size: 19px;
+}
+#main article span {
+  margin-right: 8px;
+}
+#main article h2 {
+  color: rgb(100, 41, 75);
+  font-weight: 900;
+  font-size: 30px;
+}
+#main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

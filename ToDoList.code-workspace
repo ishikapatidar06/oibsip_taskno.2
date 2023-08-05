@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../ToDoList"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "imdb"
+  }
+}
